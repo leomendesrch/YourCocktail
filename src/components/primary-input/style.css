@@ -1,0 +1,29 @@
+.input-wrapper{
+  height: 57px;
+  max-width: 590px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  border-radius: 22px;
+  border: none;
+  background: linear-gradient(98deg, rgba(255, 0, 61, 1) 0%, rgba(209, 52, 209, 1) 100%);
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-input{
+  font-size: 18px;
+  height: 90%;
+  width: 99%;
+  border-radius: 20px;
+  border: none;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(0,0,0,0.8);
+  color: white;
+  font-family: inherit;
+}
+

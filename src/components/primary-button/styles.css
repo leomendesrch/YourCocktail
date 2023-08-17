@@ -1,0 +1,15 @@
+.surprise-button {
+  height: 57px;
+  max-width: 590px;
+  width: 100%;
+  display: flex;
+  border-radius: 22px;
+  border: none;
+  background: linear-gradient(98deg, rgba(255, 0, 61, 1) 0%, rgba(209, 52, 209, 1) 100%);
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-family: inherit;
+  cursor: pointer;
+}
