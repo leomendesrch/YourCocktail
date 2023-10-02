@@ -16,10 +16,14 @@
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 24px;
+  text-align: center;
+  @media (max-width: 700px) {
+    font-size: 35px;
+  }
 }
 
 .orText{
   color: white;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
 }

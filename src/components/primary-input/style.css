@@ -9,6 +9,10 @@
   background: linear-gradient(98deg, rgba(255, 0, 61, 1) 0%, rgba(209, 52, 209, 1) 100%);
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 700px) {
+    max-width: 300px;
+  }
 }
 
 .primary-input{
@@ -25,5 +29,9 @@
   background-color: rgb(0,0,0,0.8);
   color: white;
   font-family: inherit;
+
+  @media (max-width: 700px) {
+    font-size: 15px;
+  }
 }
 

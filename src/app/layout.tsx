@@ -4,7 +4,7 @@ import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['400', '500', '600']
+  weight: ['400', '500', '600', '700', '800']
 })
 
 export const metadata: Metadata = {
@@ -12,16 +12,18 @@ export const metadata: Metadata = {
   description: 'Discover your drinks for today',
 }
 
-
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
-  
+
   return (
+    
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        {children}
+      </body>
     </html>
   )
 }
